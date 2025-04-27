@@ -2,10 +2,10 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import HomeScreen from './src/screens/HomeScreen';
-import LogEntryScreen from './src/screens/LogEntryScreen';
-import ProgressScreen from './src/screens/ProgressScreen';
-import SettingsScreen from './src/screens/SettingsScreen';
+import HomeScreen from './src/screens/HomeScreen.tsx';
+import LogEntryScreen from './src/screens/LogEntryScreen.tsx';
+import ProgressScreen from './src/screens/ProgressScreen.tsx';
+import SettingsScreen from './src/screens/SettingsScreen.tsx';
 
 type RootTabParamList = {
   Home: undefined;
